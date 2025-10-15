@@ -1,58 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <hr>
+    <meta charset="UTF-8">
+    <title>Junior Frontend Developer Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 32px 24px;
+            border-radius: 10px;
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 2.4rem;
+            color: #186f3d;
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #27ae60;
+            margin-bottom: 12px;
+            margin-top: 32px;
+        }
+        h4 {
+            color: #2980b9;
+            margin-bottom: 0;
+        }
+        .info, .contact {
+            margin-bottom: 24px;
+        }
+        .info h5 {
+            margin: 4px 0;
+            font-size: 1rem;
+            font-weight: normal;
+        }
+        ul {
+            margin: 8px 0 12px 18px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 12px;
+            margin: 8px 0 0 0;
+            padding: 0;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #d8f3dc;
+            color: #186f3d;
+            border-radius: 4px;
+            padding: 4px 10px;
+            font-size: 0.97rem;
+        }
+        .links a {
+            color: #2980b9;
+            text-decoration: none;
+            margin-right: 12px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 16px 6px;
+            }
+        }
+    </style>
 </head>
 <body>
-<h1>Your Name</h1>
+    <div class="container">
+        <h1>Your Name</h1>
+        <h2>Junior Frontend Developer</h2>
 
-<h5 style="color:green"> Junior Frontend Developer</h5>
+        <div class="info">
+            <h5>123 Your Street, Your City, ST 12345</h5>
+            <h5><a href="tel:1234567890">(123) 456-7890</a> | <a href="mailto:no_reply@example.com">no_reply@example.com</a></h5>
+        </div>
 
-<br>
-<h5> 123 Your Street</h5>
-<h5> Your City, ST 12345</h5>
-<h5> (123) 456-7890</h5>
-<h5>no_reply@example.com</h5>
-</br>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Accessibility</li>
+            <li>Responsive Web Design</li>
+            <li>Figma to Design</li>
+            <li>Technical Writing</li>
+            <li>Presentation</li>
+        </ul>
 
-<h5 style="color:green">Skills</h5>
-<h5>HTML, CSS, JavaScript, Accessibility, Figma to Design, 
-    Responsive Web Design, Technical Writing, Presentation</h5>
+        <h2>Education</h2>
+        <h4>School Name, Location &mdash; Degree</h4>
+        <h5>Month 20xx &ndash; Month 20xx</h5>
+        <ul>
+            <li>Highlight an exciting project or achievement</li>
+            <li>Relevant coursework or club involvement</li>
+            <li>Any awards or distinctions</li>
+        </ul>
 
-<br>
+        <h2>Experience</h2>
+        <h4>Company Name, Location &mdash; Job Title</h4>
+        <h5>Month 20xx &ndash; Month 20xx</h5>
+        <ul>
+            <li>Describe a project you contributed to</li>
+            <li>Any measurable achievement (e.g., improved website speed by 20%)</li>
+            <li>Collaboration or leadership examples</li>
+        </ul>
+        <h5>Skills Used: HTML, CSS, JS, Teamwork</h5>
 
-<h5 style="color:green">Education</h5>
-<h4 style="color:blue"> School Name, Location - Degree</h4>
-<h5> Month 20xx to Month 20xx</h5>
-<h5> List of exciting things you did at university</h5>
+        <h4>Company Name, Location &mdash; Job Title</h4>
+        <h5>Month 20xx &ndash; Month 20xx</h5>
+        <ul>
+            <li>Describe a project or responsibility</li>
+            <li>Any recognition or success</li>
+            <li>Learning and growth at the company</li>
+        </ul>
+        <h5>Skills Used: Responsive Design, Accessibility, Communication</h5>
 
-<br>
-<h5 style="color:green">Experience</h5>
-
-<h4 style="color:blue">Company Name, Location - Job Title</h4>
-   
-    <h5> Month 20xx to Month 20xx</h5>
-
-    <ul>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-        <li>List of achievements.</li>
-    </ul>
-
-    Skills: List of skills used or gained at this company
-
-<h4 style="color:blue">Company Name, Location Job Title</h4>
-    <h5> Month 20xx to Month 20xx</h5>
-    <ul>
-        <li>List of achievements</li>
-        <li>List of achievements</li>
-        <li>List of achievements.</li>
-    </ul>
-<h5>Skills: List of skills used or gained at this company</h5>
-
-<br>
-<h5 style="color:green">Across the Internet</h5>
-Add your Linkedin, GitHub profile links
-
+        <h2>Across the Internet</h2>
+        <div class="links">
+            <a href="https://linkedin.com/in/your-link" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <!-- Add any other relevant profiles -->
+        </div>
+    </div>
 </body>
 </html>
